@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21e4d91a.css",
+    "main.js": "/static/js/main.6521bbac.js",
+    "static/media/Sachin_Mishra_Resume.pdf": "/static/media/Sachin_Mishra_Resume.411a259f6052fd37d96a.pdf",
+    "static/media/me-about.jpg": "/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/ME.png": "/static/media/ME.53f3a3e4fbf9cb2915c2.png",
+    "index.html": "/index.html",
+    "main.21e4d91a.css.map": "/static/css/main.21e4d91a.css.map",
+    "main.6521bbac.js.map": "/static/js/main.6521bbac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21e4d91a.css",
+    "static/js/main.6521bbac.js"
+  ]
+}
