@@ -1,52 +1,54 @@
 .about__container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 35% 50%;
-  gap: 15%;
+  gap: 15%; */
+  text-align: center;
+  height: 100%;
+  position: relative;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
 }
-
-.about__me {
-  width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
-  display: grid;
-  place-items: center;
+.about__container > div {
+  /* border: 1px solid; */
+  width: 50%;
 }
-
-.about__me-image {
-  border-radius: 2rem;
-  overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
+.about_container_left {
+  text-align: left;
 }
-
-.about__me-image:hover {
-  transform: rotate(0);
+.about_container_left > h1:first-child {
+  max-width: fit-content;
+  color: var(--color-primary);
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 0.5;
+}
+.about_container_left > h1:last-child {
+  max-width: fit-content;
+  color: var(--color-white);
+  font-size: 2.3rem;
+  font-weight: 800;
 }
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .about__card {
   background: var(--color-bg-varient);
-  border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
   transition: var(--transition);
   text-align: center;
+  border: 1px solid;
 }
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary);
   cursor: default;
 }
 
@@ -61,13 +63,26 @@
 }
 
 .about__card small {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: var(--color-light);
 }
 
 .about__content p {
   margin: 2rem 0rem 2.6rem;
   color: var(--color-light);
+}
+
+.about_container_right{
+}
+.about_container_right > div:first-child{
+  border: 1px solid;
+  text-align: right;
+}
+.about_container_right > div:first-child>h1:first-child{
+  color: var(--color-primary);
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1;
 }
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
@@ -91,20 +106,20 @@
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
 
 @media screen and (max-width: 600px) {
-  .about__me{
+  .about__me {
     width: 65%;
     margin: 0 auto 3rem;
   }
 
-  .about__cards{
+  .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-  .about__content{
+  .about__content {
     text-align: center;
   }
 
-  .about__content p{
+  .about__content p {
     margin: 1.5rem 0;
   }
 }

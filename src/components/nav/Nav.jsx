@@ -6,46 +6,47 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav id="nav">
-      <a
-        href="#"
+      <Link
+        to="header"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
+      </Link>
+      <Link
+        to="about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
+      </Link>
+      <Link
+        to="experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
-      </a>
-      <a
-        href="#services"
+      </Link>
+      <Link
+        to="services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
+      </Link>
+      <Link
+        to="contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
-      </a>
+      </Link>
     </nav>
   );
 };

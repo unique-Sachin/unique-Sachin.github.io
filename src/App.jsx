@@ -8,19 +8,46 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Fullpage, {
+  FullPageSections,
+  FullpageSection,
+  FullpageNavigation,
+} from "@ap.cx/react-fullpage";
+
 const App = () => {
   return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
+    <div>
+      {/* <Nav/> */}
+      <Fullpage>
+        <FullpageNavigation />
+        <FullPageSections>
+          <FullpageSection>
+            <Header />
+          </FullpageSection>
+          <FullpageSection>
+            <About />
+          </FullpageSection>
+          <FullpageSection>
+            <Experience />
+          </FullpageSection>
+          <FullpageSection>
+            <Services />
+          </FullpageSection>
+          <FullpageSection>
+            <Portfolio />
+          </FullpageSection>
+          <FullpageSection>
+            <Testimonials />
+          </FullpageSection>
+          <FullpageSection>
+            <Contact />
+          </FullpageSection>
+          <FullpageSection>
+            <Footer />
+          </FullpageSection>
+        </FullPageSections>
+      </Fullpage>
+    </div>
   );
 };
 

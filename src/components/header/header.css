@@ -8,8 +8,67 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  /* border: 1px solid; */
+  display: flex;
+}
+.header_container_left,
+.header_container_right {
+  padding: 0 1.5rem;
+  display: flex;
+  width: 50%;
+  /* background: rgb(0 100 010.1) !important; */
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.header_container_left {
+  align-items: center;
+}
+.header_container_left img {
+  width: 90%;
+  margin: 0 auto;
+}
+.greeting_hello,
+.greeting_name {
+  background-color: var(--color-white);
+  color: var(--color-bg);
+  max-width: fit-content;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 0 0.3rem;
+}
+.greeting_name {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+.header_container_right > p {
+  width: 95%;
+  margin-top: .8rem;
+}
+.about__me {
+  width: 70%;
+  padding-top: 0.5rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  place-items: center;
+}
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  /* transform: rotate(10deg); */
+  transition: var(--transition);
 }
 
+.about__me-image:hover {
+  /* transform: rotate(0); */
+}
 /*============================ CTA ===========================*/
 .cta {
   margin-top: 2.5rem;
@@ -67,22 +126,43 @@ header {
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 66vh;
+  .header__container {
+    flex-direction: column;
+    justify-content: center;
   }
-  .me{
-  padding: 4rem 1.5rem 0rem 2rem;
+  .header_container_left,
+  .header_container_right {
+    padding: 0rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .header_container_left img {
+    width: 100%;
+  }
+  .greeting_hello,
+  .greeting_name {
+    font-size: 2.8rem;
+  }
+
+  .header_container_right > p {
+    width: 100%;
+    font-size: 1.7rem;
   }
 }
 
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
+  .greeting_hello,
+  .greeting_name {
+    font-size: 1.8rem;
   }
-  .header__socials,
-  .scroll__down {
-    display: none;
+
+  .header_container_right > p {
+    width: 100%;
+    font-size: 1rem;
   }
 }

@@ -7,17 +7,23 @@ const Header = () => {
   return (
     <header>
       <div id="header" className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Sachin Mishra</h1>
-        <h5 className="text-light">FullStack Web Developer</h5>
-        <CTA />
-        <Socials />
-        <div className="me">
-          <img src={ME} alt="me" />
+        <div className="header_container_left">
+          <div className="about__me">
+            <div className="about__me-image">
+              <img src={ME} alt="about-imag" />
+            </div>
+          </div>
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <div className="header_container_right">
+          <h1 className="greeting_hello">HELLO, I AM</h1>
+          <h1 className="greeting_name">SACHIN MISHRA.</h1>
+          <p>
+            Aspiring and self-motivated with a passion for developing scalable
+            web applications and working across the full stack. Looking forward
+            to joining an organization to grow my skills while contributing to a
+            positive outcome.
+          </p>
+        </div>
       </div>
     </header>
   );
