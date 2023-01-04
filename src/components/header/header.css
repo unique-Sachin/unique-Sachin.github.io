@@ -1,14 +1,14 @@
 header {
   height: 100vh;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   overflow: hidden;
+  /* border: 1px solid; */
 }
 
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
-  /* border: 1px solid; */
   display: flex;
 }
 .header_container_left,
@@ -46,29 +46,12 @@ header {
   width: 95%;
   margin-top: .8rem;
 }
-.about__me {
-  width: 70%;
-  padding-top: 0.5rem;
-  overflow: hidden;
-  border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
-  place-items: center;
-}
-.about__me-image {
-  border-radius: 2rem;
-  overflow: hidden;
-  /* transform: rotate(10deg); */
-  transition: var(--transition);
-}
 
-.about__me-image:hover {
+
+/* .about__me-image:hover {
   /* transform: rotate(0); */
-}
+
+
 /*============================ CTA ===========================*/
 /* .cta {
   margin-top: 2.5rem;
@@ -98,22 +81,28 @@ header {
 }
 
 /*============================ ME ===========================*/
-
-.me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+.about__me {
+  width: 70%;
+  padding-top: 0.5rem;
   overflow: hidden;
-  padding: 2rem 1.5rem 1.5rem 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  place-items: center;
+}
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  /* transform: rotate(10deg); */
+  transition: var(--transition);
 }
 
 /*============================ SCROLL DOWN ===========================*/
-
+/* 
 .scroll__down {
   position: absolute;
   right: 2.3rem;
@@ -121,7 +110,7 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-}
+} */
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 

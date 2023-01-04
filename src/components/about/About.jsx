@@ -12,37 +12,6 @@ import { GiWorld } from "react-icons/gi";
 const About = () => {
   return (
     <section id="about">
-      {/* <h5>Get To Know</h5>
-      <h2>About Me</h2>
-      <div className="container about__container">
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Fresher</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>100+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
-            </article>
-          </div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Exercitationem temporibus provident mollitia, qui earum itaque.
-            Itaque optio blanditiis numquam sunt distinctio? Veritatis, ab!
-            Facere ab sit unde odit praesentium perspiciatis?
-          </p>
-          
-        </div>
-      </div> */}
-
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div id="header" className="container about__container">
@@ -118,14 +87,14 @@ const About = () => {
                 </div>
               </div>
             </div>
-              <div className="cta">
-                <a href={CV} download className="btn">
-                  Download CV
-                </a>
-                <a href="#contact" className="btn btn-primary">
-                  Let's Talk
-                </a>
-              </div>
+            <div className="cta">
+              <a href={CV} download className="btn">
+                Download CV
+              </a>
+              <a href="#contact" className="btn btn-primary">
+                Let's Talk
+              </a>
+            </div>
           </div>
         </div>
       </div>
