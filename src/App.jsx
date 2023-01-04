@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
-import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Fullpage, {
@@ -15,8 +14,13 @@ import Fullpage, {
 const App = () => {
   return (
     <div>
-      {/* <Nav/> */}
-      <Fullpage>
+      <Nav />
+      <Header/>
+      <About />
+      <Experience/>
+      <Portfolio/>
+      <Contact/>
+      {/* <Fullpage>
         <FullpageNavigation />
         <FullPageSections>
           <FullpageSection>
@@ -35,7 +39,7 @@ const App = () => {
             <Contact />
           </FullpageSection>
         </FullPageSections>
-      </Fullpage>
+      </Fullpage> */}
     </div>
   );
 };
