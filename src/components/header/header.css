@@ -70,13 +70,13 @@ header {
   /* transform: rotate(0); */
 }
 /*============================ CTA ===========================*/
-.cta {
+/* .cta {
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /*============================ SOCIALS ===========================*/
 

@@ -4,6 +4,11 @@ import { GrStackOverflow } from "react-icons/gr";
 import { SiCodingninjas } from "react-icons/si";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { BsGithub } from "react-icons/bs";
+import CV from "../../assets/Sachin_Mishra_Resume.pdf";
+import { FaHeadphonesAlt } from "react-icons/fa";
+import { TbPlaneInflight } from "react-icons/tb";
+import { TbMotorbike } from "react-icons/tb";
+import { GiWorld } from "react-icons/gi";
 const About = () => {
   return (
     <section id="about">
@@ -37,6 +42,9 @@ const About = () => {
           
         </div>
       </div> */}
+
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
       <div id="header" className="container about__container">
         <div className="about_container_left">
           <h1 className="full_stack_heading">FULL STACK</h1>
@@ -66,8 +74,56 @@ const About = () => {
         </div>
         <div className="about_container_right">
           <div>
-            <h1 className="full_stack_heading">7+</h1>
-            <p>Months of Intense Learning</p>
+            <h1 className="full_stack_heading">PERSONAL DETAILS &</h1>
+            <h1 className="web_developer_heading">MY INTERESTS</h1>
+            <div className="details_table">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Birthday</td>
+                    <td>20 Feb 2002</td>
+                  </tr>
+                  <tr>
+                    <td>Phone</td>
+                    <td>+91 7080623634</td>
+                  </tr>
+                  <tr>
+                    <td>Email</td>
+                    <td>sachin.mern@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>Address</td>
+                    <td>Jaunpur, Uttar Pradesh, India</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="interests_cards">
+              <div className="interest_card">
+                <FaHeadphonesAlt className="interest_icons" />
+                <small>MUSIC</small>
+              </div>
+              <div className="interest_card">
+                <TbPlaneInflight className="interest_icons" />
+                <small>TRAVEL</small>
+              </div>
+              <div className="interest_card">
+                <TbMotorbike className="interest_icons" />
+                <small>BIKE</small>
+              </div>
+              <div className="interest_card">
+                <GiWorld className="interest_icons" />
+                <small>FOR.AFF.</small>
+              </div>
+            </div>
+            <div className="cta">
+              <a href={CV} download className="btn">
+                Download CV
+              </a>
+              <a href="#contact" className="btn btn-primary">
+                Let's Talk
+              </a>
+            </div>
           </div>
         </div>
       </div>

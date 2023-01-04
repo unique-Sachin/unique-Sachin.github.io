@@ -5,9 +5,7 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
 import Fullpage, {
   FullPageSections,
   FullpageSection,
@@ -31,19 +29,10 @@ const App = () => {
             <Experience />
           </FullpageSection>
           <FullpageSection>
-            <Services />
-          </FullpageSection>
-          <FullpageSection>
             <Portfolio />
           </FullpageSection>
           <FullpageSection>
-            <Testimonials />
-          </FullpageSection>
-          <FullpageSection>
             <Contact />
-          </FullpageSection>
-          <FullpageSection>
-            <Footer />
           </FullpageSection>
         </FullPageSections>
       </Fullpage>

@@ -1,16 +1,12 @@
 .about__container {
-  /* display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%; */
   text-align: center;
-  height: 100%;
+  height: 75%;
   position: relative;
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
 }
 .about__container > div {
-  /* border: 1px solid; */
+  height: 100%;
   width: 50%;
 }
 .about_container_left {
@@ -72,19 +68,72 @@
   color: var(--color-light);
 }
 
-.about_container_right{
-}
-.about_container_right > div:first-child{
-  border: 1px solid;
+.about_container_right {
   text-align: right;
 }
-.about_container_right > div:first-child>h1:first-child{
+.about_container_right > div {
+  height: 100%;
+
+}
+.about_container_right > div:first-child > h1:first-child {
   color: var(--color-primary);
-  font-size: 3.5rem;
+  font-size: 2.1rem;
   font-weight: 800;
-  line-height: 1;
+  line-height: 0.5;
+}
+.details_table {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+table {
+  width: 60%;
+}
+tr > td:first-child {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-align: left;
+}
+.interests_cards {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: flex-end;
+}
+.interest_card {
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(83, 83, 83, 0.459);
+  margin-left: 1rem;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: var(--transition);
+}
+.interest_card:hover {
+  transition: var(--transition);
+  border-color:  var(--color-primary);
+  /* border-color: var(--color-primary); */
+}
+.interest_icons {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  line-height: 0;
+  margin-bottom: 0.5rem;
 }
 
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-end;
+  align-items: center;
+}
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
