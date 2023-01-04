@@ -76,54 +76,56 @@ const About = () => {
           <div>
             <h1 className="full_stack_heading">PERSONAL DETAILS &</h1>
             <h1 className="web_developer_heading">MY INTERESTS</h1>
-            <div className="details_table">
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Birthday</td>
-                    <td>20 Feb 2002</td>
-                  </tr>
-                  <tr>
-                    <td>Phone</td>
-                    <td>+91 7080623634</td>
-                  </tr>
-                  <tr>
-                    <td>Email</td>
-                    <td>sachin.mern@gmail.com</td>
-                  </tr>
-                  <tr>
-                    <td>Address</td>
-                    <td>Jaunpur, Uttar Pradesh, India</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="about_content">
+              <div className="details_table">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Birthday</td>
+                      <td>20 Feb 2002</td>
+                    </tr>
+                    <tr>
+                      <td>Phone</td>
+                      <td>+91 7080623634</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>sachin.mern@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Address</td>
+                      <td>Jaunpur, Uttar Pradesh, India</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="interests_cards">
+                <div className="interest_card">
+                  <FaHeadphonesAlt className="interest_icons" />
+                  <small>MUSIC</small>
+                </div>
+                <div className="interest_card">
+                  <TbPlaneInflight className="interest_icons" />
+                  <small>TRAVEL</small>
+                </div>
+                <div className="interest_card">
+                  <TbMotorbike className="interest_icons" />
+                  <small>BIKE</small>
+                </div>
+                <div className="interest_card">
+                  <GiWorld className="interest_icons" />
+                  <small>FOR.AFF.</small>
+                </div>
+              </div>
             </div>
-            <div className="interests_cards">
-              <div className="interest_card">
-                <FaHeadphonesAlt className="interest_icons" />
-                <small>MUSIC</small>
+              <div className="cta">
+                <a href={CV} download className="btn">
+                  Download CV
+                </a>
+                <a href="#contact" className="btn btn-primary">
+                  Let's Talk
+                </a>
               </div>
-              <div className="interest_card">
-                <TbPlaneInflight className="interest_icons" />
-                <small>TRAVEL</small>
-              </div>
-              <div className="interest_card">
-                <TbMotorbike className="interest_icons" />
-                <small>BIKE</small>
-              </div>
-              <div className="interest_card">
-                <GiWorld className="interest_icons" />
-                <small>FOR.AFF.</small>
-              </div>
-            </div>
-            <div className="cta">
-              <a href={CV} download className="btn">
-                Download CV
-              </a>
-              <a href="#contact" className="btn btn-primary">
-                Let's Talk
-              </a>
-            </div>
           </div>
         </div>
       </div>
