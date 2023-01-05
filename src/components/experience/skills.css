@@ -1,0 +1,130 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 25%;
+  gap: 2rem;
+  text-align: center;
+}
+
+.experience__backend,
+.experience__frontend,
+.professional_skills {
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience__container > div h3 {
+  margin: 1.3rem auto;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0 1rem;
+  border-radius: 1rem;
+  border-radius: 10px / 30px;
+  border-radius: 5px 20px 5px;
+  width: max-content;
+}
+
+.skills_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid; */
+  gap: 1rem;
+}
+.skills_card {
+  display: flex;
+  margin: 0.1rem 0;
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(83, 83, 83, 0.459);
+  text-align: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: var(--transition);
+}
+.skills_card:hover {
+  transition: var(--transition);
+  border-color: var(--color-primary);
+}
+.professional_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 1.5rem 0rem;
+    border: 1px solid;
+    margin: 0 auto;
+  }
+  .experience__backend {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .experience__backend > div > div,
+  .professional_cards {
+    display: flex;
+    margin: 0.5rem;
+  }
+
+  .skills_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    justify-items: center;
+  }
+}
+
+/*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 0rem;
+    border: none;
+    margin: 0 auto;
+  }
+  .experience__backend {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .experience__backend > div > div,
+  .professional_cards {
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+  }
+  .skills_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+    justify-items: center;
+  }
+  .skills_card {
+    display: flex;
+    margin: 0.1rem 0;
+    width: 5.5rem;
+    height: 2rem;
+    flex-direction: column;
+    border-radius: 0.3rem;
+  }
+  .skills_card > :first-child {
+    display: none;
+  }
+}
