@@ -62,7 +62,7 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light {
@@ -112,10 +112,10 @@ img {
   .container {
     width: var(--container-width-md);
   }
+  section > h2 {
+  margin-bottom: 2rem;
+}
 
-  /* section {
-    margin-top: 6rem;
-  } */
 }
 
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
@@ -124,8 +124,8 @@ img {
   .container {
     width: var(--container-width-sm);
   }
-
-  /* section > h2 {
-    margin-bottom: 2rem;
-  } */
+section > h2 {
+  margin-bottom: 1rem;
+}
+ 
 }

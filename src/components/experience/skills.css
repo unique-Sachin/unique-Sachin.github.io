@@ -70,6 +70,9 @@
     border: 1px solid;
     margin: 0 auto;
   }
+  .experience__container > div h3 {
+    margin: 0rem auto 1rem auto;
+  }
   .experience__backend {
     flex-direction: row;
     justify-content: center;
@@ -103,6 +106,9 @@
   .experience__backend {
     flex-direction: column;
     justify-content: center;
+  }
+  .experience__container > div h3 {
+    margin: 1.5rem auto 1rem auto;
   }
   .experience__backend > div > div,
   .professional_cards {
