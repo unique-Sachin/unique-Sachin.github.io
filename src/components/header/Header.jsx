@@ -8,9 +8,25 @@ const Header = () => {
     <header>
       <div id="header" className="container header__container">
         <div className="header_container_left">
-          <div className="about__me">
-            <div className="about__me-image">
-              <img src={ME} alt="about-imag" />
+          <div className="portfolio_card">
+            <div className="portfolio_imgbox">
+              <img src={ME} alt="me" />
+            </div>
+            <div className="portfolio_content">
+              <div className="port_details">
+                <div className="port_data">
+                  <h3>342</h3>
+                  <span>Posts</span>
+                  <h3>500</h3>
+                  <span>Followers</span>
+                  <h3>100</h3>
+                  <span>Following</span>
+                </div>
+                <div className="port_action_Btn">
+                  <button>Follow</button>
+                  <button>Message</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

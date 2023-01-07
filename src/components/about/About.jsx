@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <SiCodingninjas className="about__icon" />
               <h5>Coding</h5>
-              <small>1500+ Hours</small>
+              <small>1200+ Hours</small>
             </article>
             <article className="about__card">
               <GrStackOverflow className="about__icon" />
@@ -32,7 +32,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>4+ Completed</small>
             </article>
             <article className="about__card">
               <BsGithub className="about__icon" />
