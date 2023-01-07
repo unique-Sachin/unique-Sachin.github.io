@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.acacbaf3.css",
-    "main.js": "/static/js/main.5cc20be6.js",
+    "main.css": "/static/css/main.ddd2ed78.css",
+    "main.js": "/static/js/main.ff4d9c45.js",
     "static/media/Sachin_Mishra_Resume.pdf": "/static/media/Sachin_Mishra_Resume.37a0ac04fcc50baaff9b.pdf",
     "static/media/ME.png": "/static/media/ME.53f3a3e4fbf9cb2915c2.png",
     "index.html": "/index.html",
-    "main.acacbaf3.css.map": "/static/css/main.acacbaf3.css.map",
-    "main.5cc20be6.js.map": "/static/js/main.5cc20be6.js.map"
+    "main.ddd2ed78.css.map": "/static/css/main.ddd2ed78.css.map",
+    "main.ff4d9c45.js.map": "/static/js/main.ff4d9c45.js.map"
   },
   "entrypoints": [
-    "static/css/main.acacbaf3.css",
-    "static/js/main.5cc20be6.js"
+    "static/css/main.ddd2ed78.css",
+    "static/js/main.ff4d9c45.js"
   ]
 }
