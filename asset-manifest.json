@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddd2ed78.css",
-    "main.js": "/static/js/main.ff4d9c45.js",
-    "static/media/Sachin_Mishra_Resume.pdf": "/static/media/Sachin_Mishra_Resume.37a0ac04fcc50baaff9b.pdf",
+    "main.css": "/static/css/main.931d5c8c.css",
+    "main.js": "/static/js/main.d3b7e7a6.js",
+    "static/media/sparkle1.jpg": "/static/media/sparkle1.c7a5dc073cd6fab66725.jpg",
     "static/media/ME.png": "/static/media/ME.53f3a3e4fbf9cb2915c2.png",
+    "static/media/zee1.jpg": "/static/media/zee1.2b3ea0a5f7134d24f398.jpg",
+    "static/media/giphy.jpg": "/static/media/giphy.18d1f42153f765095514.jpg",
+    "static/media/befit1.jpg": "/static/media/befit1.1b11ccd168b7fed19046.jpg",
+    "static/media/calculator.jpg": "/static/media/calculator.154f35546ee010862d64.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ddd2ed78.css.map": "/static/css/main.ddd2ed78.css.map",
-    "main.ff4d9c45.js.map": "/static/js/main.ff4d9c45.js.map"
+    "main.931d5c8c.css.map": "/static/css/main.931d5c8c.css.map",
+    "main.d3b7e7a6.js.map": "/static/js/main.d3b7e7a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddd2ed78.css",
-    "static/js/main.ff4d9c45.js"
+    "static/css/main.931d5c8c.css",
+    "static/js/main.d3b7e7a6.js"
   ]
 }
