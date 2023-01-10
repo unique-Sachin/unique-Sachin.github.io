@@ -1,5 +1,7 @@
 import React from "react";
 import "./portfolio.css";
+import { AiFillGithub, AiFillEye } from "react-icons/ai";
+import { GoDeviceCameraVideo } from "react-icons/go";
 import befit1 from "../../assets/befit1.jpg";
 import calculator from "../../assets/calculator.jpg";
 import sparkle1 from "../../assets/sparkle1.jpg";
@@ -32,6 +34,11 @@ const Portfolio = () => {
                 of trainer-led, group workout classes. It was a solo project and
                 was completed in 5 days.
               </p>
+              <div className="portfolio_links">
+                <AiFillGithub className="portfolio_link_icons" />
+                <AiFillEye className="portfolio_link_icons" />
+                <GoDeviceCameraVideo className="portfolio_link_icons" />
+              </div>
             </div>
           </div>
           <div className="portfolio_card_div">
@@ -44,6 +51,11 @@ const Portfolio = () => {
                 cosmetics and makeup products. A collaborative project with 4
                 members, was completed in 5 days.
               </p>
+              <div className="portfolio_links">
+                <AiFillGithub className="portfolio_link_icons" />
+                <AiFillEye className="portfolio_link_icons" />
+                <GoDeviceCameraVideo className="portfolio_link_icons" />
+              </div>
             </div>
           </div>
           <div className="portfolio_card_div">
@@ -59,6 +71,11 @@ const Portfolio = () => {
                 of the languages, making it a complete video destination for OTT
                 viewers.
               </p>
+              <div className="portfolio_links">
+                <AiFillGithub className="portfolio_link_icons" />
+                <AiFillEye className="portfolio_link_icons" />
+                <GoDeviceCameraVideo className="portfolio_link_icons" />
+              </div>
             </div>
           </div>
           <div className="portfolio_card_div">
@@ -70,6 +87,11 @@ const Portfolio = () => {
                 It's a simple calculator I have created for my friend "Akash".
                 It is fully functional.
               </p>
+              <div className="portfolio_links">
+                <AiFillGithub className="portfolio_link_icons" />
+                <AiFillEye className="portfolio_link_icons" />
+                <GoDeviceCameraVideo className="portfolio_link_icons" />
+              </div>
             </div>
           </div>
           <div className="portfolio_card_div">
@@ -77,9 +99,15 @@ const Portfolio = () => {
             <div class="content-overlay"></div>
             <div className="portfolio_card_details fadeIn-top">
               <h1>Giphy</h1>
-              <p>A simple app where you can search animated GIF images.
-                Its taking data from original giphy's API.
+              <p>
+                A simple app where you can search animated GIF images. Its
+                taking data from original giphy's API.
               </p>
+              <div className="portfolio_links">
+                <AiFillGithub className="portfolio_link_icons" />
+                <AiFillEye className="portfolio_link_icons" />
+                <GoDeviceCameraVideo className="portfolio_link_icons" />
+              </div>
             </div>
           </div>
         </Slider>
