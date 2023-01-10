@@ -40,6 +40,7 @@
   padding: 2rem;
   transition: var(--transition);
   text-align: center;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   border: 1px solid;
 }
 
@@ -105,13 +106,13 @@ tr > td:first-child {
   width: 6rem;
   height: 6rem;
   background-color: rgba(83, 83, 83, 0.459);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
   margin-left: 1rem;
   text-align: center;
   flex-direction: column;
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
-  border: none;
   border: 1px solid rgba(0, 0, 0, 0);
   transition: var(--transition);
 }

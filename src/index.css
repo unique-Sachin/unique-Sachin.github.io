@@ -20,7 +20,7 @@
   --container-width-lg: 85%;
   --container-width-md: 88%;
   --container-width-sm: 90%;
-  --transition: all 400ms ease;
+  --transition: all 300ms ease;
 }
 html {
   scroll-behavior: smooth;
@@ -33,6 +33,9 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
 }
 /*======================== GENERAL STYLES ========================*/
 .container {
@@ -113,9 +116,8 @@ img {
     width: var(--container-width-md);
   }
   section > h2 {
-  margin-bottom: 2rem;
-}
-
+    margin-bottom: 2rem;
+  }
 }
 
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
@@ -124,8 +126,7 @@ img {
   .container {
     width: var(--container-width-sm);
   }
-section > h2 {
-  margin-bottom: 1rem;
-}
- 
+  section > h2 {
+    margin-bottom: 1rem;
+  }
 }

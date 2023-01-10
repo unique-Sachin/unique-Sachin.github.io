@@ -4,7 +4,6 @@ import { GrStackOverflow } from "react-icons/gr";
 import { SiCodingninjas } from "react-icons/si";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { BsGithub } from "react-icons/bs";
-import CV from "../../assets/Sachin_Mishra_Resume.pdf";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { TbPlaneInflight } from "react-icons/tb";
 import { TbMotorbike } from "react-icons/tb";
@@ -88,7 +87,12 @@ const About = () => {
               </div>
             </div>
             <div className="cta">
-              <a href={CV} download className="btn">
+              <a
+                href="https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
+                target={"_blank"}
+                rel="noreferrer"
+                className="btn"
+              >
                 Download CV
               </a>
               <a href="#contact" className="btn btn-primary">
