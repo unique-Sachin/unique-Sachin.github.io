@@ -1,8 +1,6 @@
 header {
   height: 100vh;
-  /* margin-top: 3rem; */
   overflow: hidden;
-  /* border: 1px solid; */
 }
 
 .header__container {
@@ -16,7 +14,6 @@ header {
   padding: 0 1.5rem;
   display: flex;
   width: 50%;
-  /* background: rgb(0 100 010.1) !important; */
   flex-direction: column;
   justify-content: center;
   text-align: left;
@@ -50,7 +47,6 @@ header {
 /*============================ CARD ===========================*/
 .portfolio_card {
   position: relative;
-  /* border: 1px solid red; */
   width: 19rem;
   height: 15.5rem;
   border-radius: 1rem;
@@ -187,6 +183,9 @@ header {
     flex-direction: column;
     justify-content: center;
   }
+  .header_container_left {
+    height: 40%;
+  }
   .header_container_left,
   .header_container_right {
     padding: 0rem;
@@ -196,9 +195,6 @@ header {
     text-align: justify;
   }
 
-  .header_container_left img {
-    width: 100%;
-  }
   .greeting_hello,
   .greeting_name {
     font-size: 2.8rem;
@@ -207,6 +203,16 @@ header {
   .header_container_right > p {
     width: 100%;
     font-size: 1.7rem;
+  }
+  /*============================ CARD ===========================*/
+  .portfolio_card {
+    width: 20rem;
+    height: 16.5rem;
+  }
+
+  .portfolio_imgbox {
+    width: 19rem;
+    height: 19.2rem;
   }
 }
 
@@ -217,9 +223,32 @@ header {
   .greeting_name {
     font-size: 1.8rem;
   }
-
   .header_container_right > p {
     width: 100%;
     font-size: 1rem;
+  }
+  /*============================ CARD ===========================*/
+  .portfolio_card {
+    width: 17rem;
+    height: 14rem;
+  }
+  .portfolio_card:hover {
+    height: 17rem;
+    width: 18rem;
+  }
+
+  .portfolio_imgbox {
+    width: 16rem;
+    height: 16.2rem;
+  }
+  .portfolio_card:hover > .portfolio_imgbox {
+    width: 14rem;
+    height: 14rem;
+  }
+  .portfolio_card .portfolio_content .port_details {
+    padding: 2rem 1.5rem;
+  }
+  .port_data {
+    display: none;
   }
 }

@@ -13,7 +13,7 @@ const About = () => {
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <div id="header" className="container about__container">
+      <div className="container about__container">
         <div className="about_container_left">
           <h1 className="full_stack_heading">FULL STACK</h1>
           <h1 className="web_developer_heading">WEB DEVELOPER</h1>

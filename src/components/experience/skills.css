@@ -9,6 +9,7 @@
 .experience__frontend,
 .professional_skills {
   padding: 1rem;
+  padding-bottom: 2rem;
   border-radius: 2rem;
   transition: var(--transition);
   border: 1px solid;
@@ -99,9 +100,11 @@
   .experience__container > div {
     width: 100%;
     padding: 0rem;
+    padding-bottom: 1.5rem;
     border: none;
     margin: 0 auto;
   }
+
   .experience__backend {
     flex-direction: column;
     justify-content: center;
