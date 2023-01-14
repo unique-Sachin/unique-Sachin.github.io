@@ -9,7 +9,7 @@ const Contact = () => {
       <section id="contact">
         <div className="dataSubmitted">
           <h1>Thankyou for your request</h1>
-          <h1>We will get back to you soon</h1>
+          <h1>We will get back to you soon!</h1>
         </div>
       </section>
     );
@@ -31,7 +31,7 @@ const Contact = () => {
               />
               <input
                 placeholder="Contact No."
-                type="text"
+                type="number"
                 name="contact"
                 id="contact"
               />

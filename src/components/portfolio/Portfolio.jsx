@@ -39,9 +39,23 @@ const Portfolio = () => {
                   and was completed in 5 days.
                 </p>
                 <div className="portfolio_links">
-                  <AiFillGithub className="portfolio_link_icons" />
-                  <AiFillEye className="portfolio_link_icons" />
-                  <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://github.com/unique-Sachin/glorious-part-9543"
+                  >
+                    <AiFillGithub className="portfolio_link_icons" />
+                  </a>
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://glorious-part-9543-qpf7.vercel.app/"
+                  >
+                    <AiFillEye className="portfolio_link_icons" />
+                  </a>
+                  <a href="">
+                    <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -56,9 +70,23 @@ const Portfolio = () => {
                   members, was completed in 5 days.
                 </p>
                 <div className="portfolio_links">
-                  <AiFillGithub className="portfolio_link_icons" />
-                  <AiFillEye className="portfolio_link_icons" />
-                  <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://github.com/sarfraj0304/abject-history-7359"
+                  >
+                    <AiFillGithub className="portfolio_link_icons" />
+                  </a>
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://sparkle-mauve.vercel.app/"
+                  >
+                    <AiFillEye className="portfolio_link_icons" />
+                  </a>
+                  <a href="">
+                    <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -75,9 +103,23 @@ const Portfolio = () => {
                   most of the languages.
                 </p>
                 <div className="portfolio_links">
-                  <AiFillGithub className="portfolio_link_icons" />
-                  <AiFillEye className="portfolio_link_icons" />
-                  <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://github.com/unique-Sachin/faded-cat-6669"
+                  >
+                    <AiFillGithub className="portfolio_link_icons" />
+                  </a>
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://rainbow-sorbet-8c099a.netlify.app/"
+                  >
+                    <AiFillEye className="portfolio_link_icons" />
+                  </a>
+                  <a href="">
+                    <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -91,9 +133,13 @@ const Portfolio = () => {
                   It is fully functional.
                 </p>
                 <div className="portfolio_links">
-                  <AiFillGithub className="portfolio_link_icons" />
-                  <AiFillEye className="portfolio_link_icons" />
-                  <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://akas-ka-calculator.netlify.app/"
+                  >
+                    <AiFillEye className="portfolio_link_icons" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -107,9 +153,13 @@ const Portfolio = () => {
                   taking data from original giphy's API.
                 </p>
                 <div className="portfolio_links">
-                  <AiFillGithub className="portfolio_link_icons" />
-                  <AiFillEye className="portfolio_link_icons" />
-                  <GoDeviceCameraVideo className="portfolio_link_icons" />
+                  <a
+                    target={"_blank"}
+                    rel="noreferrer"
+                    href="https://giphy-be-animated.netlify.app/"
+                  >
+                    <AiFillEye className="portfolio_link_icons" />
+                  </a>
                 </div>
               </div>
             </div>

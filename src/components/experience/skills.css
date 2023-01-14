@@ -56,6 +56,9 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
+small{
+  color: var(--color-light);
+}
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 

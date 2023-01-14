@@ -3,7 +3,13 @@ import "./header.css";
 // import CTA from "./CTA";
 import ME from "../../assets/ME.png";
 // import Socials from "./HeaderSocials";
-const Header = () => {
+const Header = ({ setTheme }) => {
+  const handleSetTheme = (value) => {
+    localStorage.clear("theme");
+    localStorage.setItem("theme", value);
+    setTheme(localStorage.getItem("theme"));
+    console.log(localStorage.getItem("theme"));
+  };
   return (
     <header>
       <div id="header" className="container header__container">
@@ -31,6 +37,26 @@ const Header = () => {
           </div>
         </div>
         <div className="header_container_right">
+          <span
+            onClick={() => handleSetTheme("yellow")}
+            class="circle-one animated-circle position-relative"
+          ></span>
+          <span
+            onClick={() => handleSetTheme("pink")}
+            class="circle-two animated-circle position-relative"
+          ></span>
+          <span
+            onClick={() => setTheme("green")}
+            class="circle-three animated-circle position-relative"
+          ></span>
+          <span
+            onClick={() => setTheme("blue")}
+            class="circle-four animated-circle position-relative"
+          ></span>
+          <span
+            onClick={() => setTheme("orange")}
+            class="circle-five animated-circle position-relative"
+          ></span>
           <h1 className="greeting_hello">HELLO, I AM</h1>
           <h1 className="greeting_name">SACHIN MISHRA.</h1>
           <p>
@@ -41,6 +67,7 @@ const Header = () => {
           </p>
         </div>
       </div>
+      <div></div>
     </header>
   );
 };

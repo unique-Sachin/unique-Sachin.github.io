@@ -2,13 +2,15 @@
   height: 100%;
   padding: 2.5rem 0;
 }
-.contact_container > h1:first-child,.dataSubmitted h1:first-child {
+.contact_container > h1:first-child,
+.dataSubmitted h1:first-child {
   color: var(--color-primary);
   font-size: 2.1rem;
   font-weight: 800;
   line-height: 0.5;
 }
-.contact_container > h1:last-child,.dataSubmitted h1:last-child {
+.contact_container > h1:last-child,
+.dataSubmitted h1:last-child {
   max-width: fit-content;
   color: var(--color-white);
   font-size: 2.3rem;
@@ -53,16 +55,19 @@
 }
 .contact_details_container input::placeholder {
   padding: 0;
+  color: var(--color-light);
   margin: 0;
   font-size: 1.2rem;
 }
-
+.get_in_heading {
+  color: var(--color-white);
+}
 .contact_btn {
   margin-top: 3rem;
   background-color: transparent;
 }
 
-.dataSubmitted{
+.dataSubmitted {
   display: flex;
   flex-direction: column;
   height: 100%;

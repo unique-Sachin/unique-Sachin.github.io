@@ -72,6 +72,9 @@
   font-size: 1.8rem;
   font-weight: 200;
 }
+.portfolio_card_details > p {
+  color: white;
+}
 .portfolio_links {
   padding: 2rem;
   display: flex;

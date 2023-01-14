@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -7,15 +7,16 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
 const App = () => {
+  const [theme, setTheme] = useState("yellow");
   return (
-    <>
-      <Nav />
-      <Header />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Contact />
-    </>
+    <div data-theme-color={theme} className="fullpage-section">
+      <Nav theme={theme} />
+      <Header theme={theme} setTheme={setTheme} />
+      <About theme={theme} />
+      <Skills theme={theme} />
+      <Portfolio theme={theme} />
+      <Contact theme={theme} />
+    </div>
   );
 };
 

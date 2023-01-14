@@ -9,18 +9,40 @@
   list-style: none;
   text-decoration: none;
 }
+
 :root {
-  /* --color-bg: #1f1f38; */
-  --color-bg: #2f3235;
-  /* --color-bg-varient: white; */
-  --color-primary: #dabc34;
-  --color-primary-varient: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
+  /* --color-primary: #dabc34;
+  --color-bg: #2e3232; */
+  --color-white: #ffff;
   --color-light: rgba(255, 255, 255, 0.6);
   --container-width-lg: 85%;
   --container-width-md: 88%;
   --container-width-sm: 90%;
   --transition: all 300ms ease;
+}
+
+[data-theme-color="yellow"] {
+  --color-primary: #dabc34;
+  --color-bg: #2e3232;
+}
+
+[data-theme-color="pink"] {
+  --color-primary: #e52165;
+  --color-bg: #0c1037;
+}
+[data-theme-color="green"] {
+  --color-primary: #89da90;
+  --color-bg: #1e204e;
+}
+[data-theme-color="blue"] {
+  --color-primary: #14b3a8;
+  --color-bg: #1d0805;
+}
+[data-theme-color="orange"] {
+  --color-primary: #8e55cf;
+  --color-bg: #fff;
+  --color-white: rgb(44, 19, 19);
+  --color-light: rgb(82, 59, 59);
 }
 html {
   scroll-behavior: smooth;
@@ -28,10 +50,12 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+.fullpage-section {
+  background-color: var(--color-bg);
+}
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-light);
   line-height: 1.7;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -107,6 +131,13 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
