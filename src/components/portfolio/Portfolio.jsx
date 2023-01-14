@@ -15,8 +15,11 @@ const Portfolio = () => {
   let settings = {
     infinite: true,
     speed: 500,
+    lazyLoad: true,
+    autoplaySpeed: 3000,
     slidesToShow: matchMedia("(max-width: 1024px)").matches ? 1 : 2,
     slidesToScroll: 1,
+    autoplay: true,
   };
   return (
     <>
@@ -69,8 +72,7 @@ const Portfolio = () => {
                 <p>
                   It's frontend clone of Zee5 which offers an exhaustive array
                   of content; with live TV channels and hours of viewing across
-                  most of the languages, making it a complete video destination
-                  for OTT viewers.
+                  most of the languages.
                 </p>
                 <div className="portfolio_links">
                   <AiFillGithub className="portfolio_link_icons" />

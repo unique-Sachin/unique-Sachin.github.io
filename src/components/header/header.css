@@ -57,8 +57,8 @@ header {
   cursor: pointer;
 }
 .portfolio_card:hover {
-  height: 20rem;
-  width: 20rem;
+  height: 18rem;
+  width: 19rem;
 }
 
 .portfolio_imgbox {

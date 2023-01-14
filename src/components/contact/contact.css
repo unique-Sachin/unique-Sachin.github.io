@@ -2,13 +2,13 @@
   height: 100%;
   padding: 2.5rem 0;
 }
-.contact_container > h1:first-child {
+.contact_container > h1:first-child,.dataSubmitted h1:first-child {
   color: var(--color-primary);
   font-size: 2.1rem;
   font-weight: 800;
   line-height: 0.5;
 }
-.contact_container > h1:last-child {
+.contact_container > h1:last-child,.dataSubmitted h1:last-child {
   max-width: fit-content;
   color: var(--color-white);
   font-size: 2.3rem;
@@ -16,38 +16,18 @@
 }
 .contact_details_container {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
-.contact_details_container > div {
+.contact_details_container form {
   display: flex;
-  flex-direction: column;
 }
-.contact_details_container > div:first-child {
+.contact_details_container form > div:first-child {
   width: 40%;
 }
-.contact_details_container > div:last-child {
+.contact_details_container form > div:last-child {
   width: 60%;
 }
-.contact_details_container > div:first-child > input {
-  margin: 0.5rem 0;
-  width: 80%;
-  padding: 1rem 0;
-  color: var(--color-white);
-  border-bottom: 1px solid var(--color-light);
-  font-size: 1.2rem;
-  background: transparent;
-  transition: var(--transition);
-}
-.contact_details_container > div > input:hover {
-  border-color: 1px solid var(--color-light);
-}
-.contact_details_container > div > input::placeholder {
-  padding: 0;
-  margin: 0;
-  /* border: 1px solid; */
-  font-size: 1.2rem;
-}
-.message_box_input {
+.contact_details_container form > div:last-child input {
   margin: 0.5rem 0;
   width: 80%;
   padding-top: 1rem;
@@ -58,6 +38,34 @@
   background: transparent;
   transition: var(--transition);
 }
+.contact_details_container input {
+  margin: 0.5rem 0;
+  width: 80%;
+  padding: 1rem 0;
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-light);
+  font-size: 1.2rem;
+  background: transparent;
+  transition: var(--transition);
+}
+.contact_details_container input:hover {
+  border-color: 1px solid var(--color-light);
+}
+.contact_details_container input::placeholder {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
 .contact_btn {
   margin-top: 3rem;
+  background-color: transparent;
+}
+
+.dataSubmitted{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }

@@ -14,14 +14,14 @@ const Header = () => {
             </div>
             <div className="portfolio_content">
               <div className="port_details">
-                <div className="port_data">
+                {/* <div className="port_data">
                   <h3>342</h3>
                   <span>Posts</span>
                   <h3>500</h3>
                   <span>Followers</span>
                   <h3>100</h3>
                   <span>Following</span>
-                </div>
+                </div> */}
                 <div className="port_action_Btn">
                   <button>Follow</button>
                   <button>Message</button>
