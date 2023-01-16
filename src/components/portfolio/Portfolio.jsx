@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       name: "Be.Fit.com",
       description:
-        "Be.FIt is an online platform for fitness guidance with a range of trainer-led, group workout classes. It was a solo project and was completed in 5 days",
+        "Be.FIt is an online platform for fitness guidance with a range of trainer-led, group workout classes. It was a solo project, completed in 5 days",
       image: befit1,
       github: "https://github.com/unique-Sachin/glorious-part-9543",
       deployed: "https://glorious-part-9543-qpf7.vercel.app",
