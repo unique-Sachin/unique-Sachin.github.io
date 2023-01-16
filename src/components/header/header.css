@@ -50,10 +50,6 @@ p {
 .animated-circle {
   background-color: transparent;
   border: none;
-  /* border: 1px solid black; */
-  /* height: 3rem; */
-  /* border-radius: 50%;
-  width: 3rem; */
   cursor: pointer;
   position: absolute;
 }
@@ -320,6 +316,29 @@ p {
     width: 100%;
     font-size: 1.7rem;
   }
+  .header_container_right {
+    position: unset;
+  }
+  .circle-one {
+    top: 5%;
+    left: 47%;
+  }
+  .circle-two {
+    top: 20%;
+    left: 10%;
+  }
+  .circle-three {
+    top: 20%;
+    right: 15%;
+  }
+  .circle-four {
+    top: 50%;
+    right: 15%;
+  }
+  .circle-five {
+    top: 50%;
+    left: 10%;
+  }
   /*============================ CARD ===========================*/
   .portfolio_card {
     width: 20rem;
@@ -342,6 +361,26 @@ p {
   .header_container_right > p {
     width: 100%;
     font-size: 1rem;
+  }
+  .circle-one {
+    top: 2%;
+    left: 44%;
+  }
+  .circle-two {
+    top: 20%;
+    left: -5%;
+  }
+  .circle-three {
+    top: 20%;
+    right: 8%;
+  }
+  .circle-four {
+    top: 50%;
+    right: 8%;
+  }
+  .circle-five {
+    top: 50%;
+    left: -5%;
   }
   /*============================ CARD ===========================*/
   .portfolio_card {

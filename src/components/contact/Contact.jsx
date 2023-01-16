@@ -46,6 +46,18 @@ const Contact = () => {
                 field="email"
                 errors={state.errors}
               />
+              <input
+                className="message2"
+                id="message"
+                name="message"
+                placeholder="Type Your Message Here"
+                type="text"
+              />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
               <button
                 type="submit"
                 disabled={state.submitting}
@@ -54,7 +66,7 @@ const Contact = () => {
                 Contact Now
               </button>
             </div>
-            <div>
+            <div className="massage_container">
               <input
                 id="message"
                 name="message"

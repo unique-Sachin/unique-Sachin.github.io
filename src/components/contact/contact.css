@@ -17,7 +17,6 @@
   font-weight: 800;
 }
 .contact_details_container {
-  display: flex;
   margin-top: 3rem;
 }
 .contact_details_container form {
@@ -59,6 +58,9 @@
   margin: 0;
   font-size: 1.2rem;
 }
+.message2 {
+  display: none;
+}
 .get_in_heading {
   color: var(--color-white);
 }
@@ -73,4 +75,70 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+/*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
+
+@media screen and (max-width: 1024px) {
+  .contact_container > h1:first-child,
+  .dataSubmitted h1:first-child {
+    font-size: 1.7rem;
+  }
+  .contact_container > h1:last-child,
+  .dataSubmitted h1:last-child {
+    font-size: 2rem;
+  }
+  .contact_details_container form > div:first-child {
+    width: 50%;
+  }
+  .contact_details_container form > div:last-child {
+    width: 50%;
+  }
+  .contact_details_container form > div:last-child input {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .contact_details_container input {
+    margin: 0.5rem 0;
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+
+/*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
+
+@media screen and (max-width: 600px) {
+  .contact_container {
+    text-align: center;
+  }
+  .contact_container > h1:first-child,
+  .dataSubmitted h1:first-child {
+    font-size: 1.5rem;
+  }
+  .get_in_heading,
+  .dataSubmitted h1:last-child {
+    font-size: 2rem;
+  }
+  .contact_details_container form {
+    flex-direction: column;
+  }
+  .massage_container {
+    display: none;
+  }
+  .message2 {
+    display: block;
+  }
+  .contact_details_container form > div:first-child .message2 {
+    display: block;
+    margin: auto;
+    padding-top: 4rem;
+  }
+  .contact_details_container form > div:first-child {
+    width: 100%;
+  }
+  .contact_details_container input {
+    margin: 0.5rem 0;
+    width: 90%;
+    font-size: 1.2rem;
+  }
 }

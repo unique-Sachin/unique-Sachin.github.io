@@ -100,14 +100,15 @@
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
-  .portfolio_card_div {
-    pointer-events: none;
-  }
   .portfolio_card_div img {
     height: 28rem;
   }
   .content-overlay {
     display: none;
+  }
+  .portfolio_card_div:hover .portfolio_card_details {
+    top: 0%;
+    left: 0%;
   }
   .portfolio_card_details {
     position: relative;
