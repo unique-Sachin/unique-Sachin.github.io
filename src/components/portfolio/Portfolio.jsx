@@ -25,7 +25,7 @@ const Portfolio = () => {
     {
       name: "Sparkle.com",
       description:
-        "Sparkle.com is an e-commerce platform for ladies to purchase cosmetics and makeup products. A collaborative project with 4 members, was completed in 5 days.",
+        "Sparkle.com is an e-commerce platform for ladies to purchase cosmetics and makeup products. A collaborative project with 4 members.",
       image: sparkle1,
       github: "https://github.com/sarfraj0304/abject-history-7359",
       deployed: "https://sparkle-mauve.vercel.app",
