@@ -8,7 +8,15 @@ import { FaHeadphonesAlt } from "react-icons/fa";
 import { TbPlaneInflight } from "react-icons/tb";
 import { TbMotorbike } from "react-icons/tb";
 import { GiWorld } from "react-icons/gi";
+import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
+import { useNavigate } from "react-router-dom";
 const About = () => {
+  const navigate = useNavigate();
+  const handleDownload = () => {
+    navigate(
+      "https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
+    );
+  };
   return (
     <section id={"about"}>
       <h5>Get To Know</h5>
@@ -87,12 +95,7 @@ const About = () => {
               </div>
             </div>
             <div className="cta">
-              <a
-                href="https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
-                target={"_blank"}
-                rel="noreferrer"
-                className="btn"
-              >
+              <a href={RESUME} download className="btn">
                 Download CV
               </a>
               <a href="#contact" className="btn btn-primary">

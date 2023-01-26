@@ -69,7 +69,7 @@ const Portfolio = () => {
     speed: 500,
     lazyLoad: true,
     autoplaySpeed: 3000,
-    slidesToShow: matchMedia("(max-width: 1024px)").matches ? 1 : 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
   };
@@ -78,12 +78,13 @@ const Portfolio = () => {
       <section id="portfolio">
         <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
-        <div className="container portfolio_container">
-          <Slider {...settings}>
+        <div className="portfolio_container">
+          <Slider className="projects_container" {...settings}>
             {projectsData.map((project) => (
               <Project {...project} />
             ))}
           </Slider>
+          <div className="bg_texture" />
         </div>
       </section>
     </>
