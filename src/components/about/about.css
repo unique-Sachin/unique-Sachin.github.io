@@ -1,3 +1,6 @@
+section {
+  padding-top: 2.5rem;
+}
 .about__container {
   text-align: center;
   height: 100%;
@@ -27,7 +30,7 @@
 .web_developer_heading {
   color: var(--color-white);
 }
-article h5{
+article h5 {
   color: var(--color-light);
 }
 
@@ -100,7 +103,8 @@ tr > td:first-child {
   font-weight: 600;
   text-align: left;
 }
-tr > td:last-child, .interest_card small {
+tr > td:last-child,
+.interest_card small {
   color: var(--color-light);
 }
 .interests_cards {
@@ -126,7 +130,6 @@ tr > td:last-child, .interest_card small {
 .interest_card:hover {
   transition: var(--transition);
   border-color: var(--color-primary);
-  /* border-color: var(--color-primary); */
 }
 .interest_icons {
   color: var(--color-primary);
@@ -142,9 +145,33 @@ tr > td:last-child, .interest_card small {
   justify-content: flex-end;
   align-items: center;
 }
+
+/*======================== GITHUB SECTION ========================*/
+.github_container {
+  height: 85%;
+}
+.github_left {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.github_right {
+  display: flex;
+  height: 35%;
+  justify-content: space-evenly;
+}
+.github_right > img {
+  width: 32%;
+  object-fit: contain;
+}
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
+  section {
+    padding-top: 0rem;
+  }
   .about__container {
     height: 90%;
     flex-direction: column;

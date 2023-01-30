@@ -1,8 +1,6 @@
 import React from "react";
 import "./header.css";
-// import CTA from "./CTA";
 import ME from "../../assets/ME.png";
-// import Socials from "./HeaderSocials";
 const Header = ({ setTheme }) => {
   const handleSetTheme = (value) => {
     localStorage.clear("theme");
@@ -29,8 +27,20 @@ const Header = ({ setTheme }) => {
                   <span>Following</span>
                 </div> */}
                 <div className="port_action_Btn">
-                  <button>Follow</button>
-                  <button>Message</button>
+                  <a
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                    href="https://www.linkedin.com/in/sachin-mishra-a790bb174"
+                  >
+                    <button>Follow</button>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/sachin-mishra-a790bb174"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button>Message</button>
+                  </a>
                 </div>
               </div>
             </div>

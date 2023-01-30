@@ -19,7 +19,6 @@ const Portfolio = () => {
       image: befit1,
       github: "https://github.com/unique-Sachin/glorious-part-9543",
       deployed: "https://glorious-part-9543-qpf7.vercel.app",
-      video: "",
       tech: "HTML | CSS | JavaScript | React | JSON Server",
     },
     {
@@ -29,7 +28,6 @@ const Portfolio = () => {
       image: sparkle1,
       github: "https://github.com/sarfraj0304/abject-history-7359",
       deployed: "https://sparkle-mauve.vercel.app",
-      video: "",
       tech: "HTML | CSS | JavaScript | JSON-Server",
     },
     {
@@ -39,19 +37,8 @@ const Portfolio = () => {
       image: zee1,
       github: "https://github.com/unique-Sachin/faded-cat-6669",
       deployed: "https://rainbow-sorbet-8c099a.netlify.app",
-      video: "",
       tech: "HTML | CSS | JavaScript",
       clone: "[Clone]",
-    },
-    {
-      name: "Calculator",
-      description:
-        "It's a simple calculator I have created for my friend Akash. It is functional.",
-      image: calculator,
-      github: "",
-      deployed: "https://akas-ka-calculator.netlify.app",
-      video: "",
-      tech: "HTML | CSS | JavaScript",
     },
     {
       name: "Giphy",
@@ -60,12 +47,11 @@ const Portfolio = () => {
       image: giphy,
       github: "",
       deployed: "https://giphy-be-animated.netlify.app",
-      video: "",
       tech: "HTML | CSS | JavaScript",
     },
   ];
   let settings = {
-    infinite: true,
+    infinite: false,
     speed: 500,
     lazyLoad: true,
     autoplaySpeed: 3000,
@@ -80,8 +66,8 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
         <div className="portfolio_container">
           <Slider className="projects_container" {...settings}>
-            {projectsData.map((project) => (
-              <Project {...project} />
+            {projectsData.map((project, id) => (
+              <Project {...project} key={id} />
             ))}
           </Slider>
           <div className="bg_texture" />

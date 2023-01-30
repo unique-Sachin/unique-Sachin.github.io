@@ -9,7 +9,6 @@ const Project = ({
   clone,
   github,
   deployed,
-  video,
   tech,
 }) => {
   return (

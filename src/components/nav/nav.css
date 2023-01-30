@@ -1,33 +1,83 @@
-nav {
+#nav {
   background: rgba(0, 0, 0, 0.3);
-  width: max-content;
-  display: block;
-  padding: 0.7rem 1.7rem;
-  z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
+  width: 100%;
   display: flex;
-  gap: 0.8rem;
-  border-radius: 3rem;
+  padding: 0.7rem 1.7rem;
+  z-index: 30;
+  position: fixed;
+  left: 0;
+  top: 0;
+  justify-content: space-evenly;
   backdrop-filter: blur(1rem);
 }
-
-nav a {
-  background: transparent;
-  padding: 0.9rem;
-  border-radius: 50%;
+#nav a {
   display: flex;
-  color: var(--color-light);
-  font-size: 1.1rem;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-white);
+}
+.menutext {
+  font-size: 1.2rem;
 }
 
-nav a:hover {
+.menuicons {
+  font-size: 1.5rem;
+}
+#nav a {
+  /* border: 1px solid green; */
+  padding: 0.2rem 0.8rem;
+  cursor: pointer;
+  margin: 0.2rem 0;
+  border-radius: 0.3rem;
+}
+
+#nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
-nav a.active {
+#nav a.active {
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-primary);
+}
+
+#nav_mobile {
+  display: none;
+}
+/*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width: 1024px) {
+  #nav {
+    display: none;
+  }
+  #nav_mobile {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    z-index: 30;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(1rem);
+  }
+
+  #nav_mobile a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+  }
+
+  #nav_mobile a:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  #nav_mobile a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+  }
 }

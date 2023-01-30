@@ -1,8 +1,11 @@
 .portfolio_container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
 }
 .projects_container {
-  /* width: 300px; */
+  width: 90%;
   margin: auto;
   z-index: 20;
 }
@@ -16,18 +19,17 @@
   transform: skewY(-10deg);
 }
 .portfolio_card_div {
-  border: 1px solid red;
+  width: 35%;
+  margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
 }
 .portfolio_card_div img {
-  width: 40%;
-  height: 10rem;
+  height: 15rem;
   object-fit: fill;
 }
-
 .portfolio_card_details > h1 {
   color: var(--color-primary);
   font-size: 2rem;
@@ -38,7 +40,7 @@
   font-weight: 200;
 }
 .portfolio_card_details > p {
-  color: white;
+  color: var(--color-white);
 }
 .portfolio_links {
   padding: 2rem;
@@ -47,11 +49,11 @@
   align-items: center;
 }
 .portfolio_link_icons {
-  font-size: 4rem;
+  font-size: 3rem;
   border: 1px solid var(--color-primary);
   margin: 0 1rem;
   color: var(--color-primary);
-  padding: 1rem;
+  padding: 0.5rem;
   transition: var(--transition);
   border-radius: 5px 20px 5px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
@@ -61,41 +63,26 @@
   background-color: rgba(0, 0, 0, 1);
   border-radius: 20px 5px 20px;
 }
-/* #techStack {
+#techStack {
   color: var(--color-bg);
   width: max-content;
-  padding: 0 1rem;
-  border-radius: 20px 5px 20px;
+  margin: auto;
+  margin-top: 0.4rem;
+  padding: 0 0.8rem;
   text-align: center;
+  border-radius: 20px 5px 20px;
+  /* text-align: center; */
   background-color: var(--color-primary);
-} */
+}
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
   .portfolio_card_div img {
-    height: 28rem;
+    height: 25rem;
   }
-  .content-overlay {
-    display: none;
-  }
-  .portfolio_card_div:hover .portfolio_card_details {
-    top: 0%;
-    left: 0%;
-  }
-  .portfolio_card_details {
-    position: relative;
-    width: 95%;
-    margin: auto;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    -webkit-transform: none;
-    -moz-transform: none;
-    transform: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
+  .portfolio_card_div {
+    width: 75%;
   }
 }
 
@@ -105,9 +92,11 @@
   .portfolio_container {
     height: 75%;
   }
+  .projects_container {
+    width: 100%;
+  }
   .portfolio_card_div img {
-    padding: 0rem;
-    height: 13rem;
+    height: 12rem;
   }
   .content-overlay {
     display: none;
@@ -127,6 +116,7 @@
   }
   .portfolio_card_details > p {
     line-height: 1.5rem;
+    text-align: justify;
   }
   .portfolio_links {
     margin: 0.5rem 0;

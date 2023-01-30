@@ -1,10 +1,11 @@
 header {
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header__container {
   text-align: center;
+  padding-top: 2.2rem;
   height: 100%;
   position: relative;
   display: flex;
@@ -294,6 +295,7 @@ p {
   .header__container {
     flex-direction: column;
     justify-content: center;
+    padding-top: 0rem;
   }
   .header_container_left {
     height: 40%;
