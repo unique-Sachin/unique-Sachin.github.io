@@ -1,7 +1,6 @@
 import React from "react";
 import "./portfolio.css";
 import befit1 from "../../assets/befit1.jpg";
-import calculator from "../../assets/calculator.jpg";
 import sparkle1 from "../../assets/sparkle1.jpg";
 import zee1 from "../../assets/zee1.jpg";
 import giphy from "../../assets/giphy.jpg";
@@ -54,10 +53,9 @@ const Portfolio = () => {
     infinite: false,
     speed: 500,
     lazyLoad: true,
-    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    dots: true,
   };
   return (
     <>

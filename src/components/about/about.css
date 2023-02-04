@@ -235,6 +235,17 @@ tr > td:last-child,
     font-weight: 600;
     text-align: left;
   }
+  .github_left {
+    height: 20%;
+  }
+  .github_right {
+    flex-direction: column;
+    height: 80%;
+  }
+  .github_right > img {
+    width: 80%;
+    margin: 0.3rem auto;
+  }
 }
 
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/
@@ -276,5 +287,13 @@ tr > td:last-child,
   .cta {
     gap: 2.2rem;
     justify-content: center;
+  }
+  .github_right {
+    margin-top: 1rem;
+    height: 60%;
+  }
+  .github_right > img {
+    width: 100%;
+    margin: 0.5rem auto;
   }
 }

@@ -111,7 +111,7 @@ const About = ({ theme }) => {
         </div>
       </section>
       <section id="github">
-        <h2>GitHub Statistics</h2>
+        <h2>GitHub Calender</h2>
         <div className="container github_container">
           <div className="github_left">
             <GitHubCalendar
@@ -132,6 +132,9 @@ const About = ({ theme }) => {
               username="unique-sachin"
             />
           </div>
+          <h2 style={{ color: "var(--color-primary)", marginBbottom: "2rem",textAlign:"center" }}>
+            GitHub Stats
+          </h2>
           <div className="github_right">
             <img
               draggable="false"
