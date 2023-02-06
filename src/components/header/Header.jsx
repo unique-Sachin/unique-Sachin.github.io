@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import ME from "../../assets/ME.png";
+import HeaderSocials from "./HeaderSocials";
 const Header = ({ setTheme }) => {
   const handleSetTheme = (value) => {
     localStorage.clear("theme");
@@ -45,6 +46,7 @@ const Header = ({ setTheme }) => {
               </div>
             </div>
           </div>
+          <HeaderSocials />
         </div>
         <div className="header_container_right">
           <span
