@@ -4,6 +4,7 @@ import befit1 from "../../assets/befit1.jpg";
 import sparkle1 from "../../assets/sparkle1.jpg";
 import zee1 from "../../assets/zee1.jpg";
 import giphy from "../../assets/giphy.jpg";
+import gadgetrambo1 from "../../assets/gadgetrambo1.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +12,15 @@ import Project from "./Project";
 
 const Portfolio = () => {
   const projectsData = [
+    {
+      name: "GadgetRambo.com",
+      description:
+        "This website had been created to target tech-geeks to explore tech gadgets and tech related news. It was a group project with 5 team members",
+      image: gadgetrambo1,
+      github: "https://github.com/unique-Sachin/GadgetRambo",
+      deployed: "https://gadget-rambo.netlify.app",
+      tech: "HTML | CSS | TypeScript | NextJS | Redux | Firebase",
+    },
     {
       name: "Be.Fit.com",
       description:

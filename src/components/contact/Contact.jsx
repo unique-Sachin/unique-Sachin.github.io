@@ -17,9 +17,28 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="contact_container container">
-        <h1 className="contact_me_heading">CONTACT ME</h1>
-        <h1 className="get_in_heading">LETS GET IN TOUCH</h1>
-        <p>I am available for any project acording to my skills.</p>
+        <div className="contact_head_container">
+          <div>
+            <h1 className="contact_me_heading">CONTACT ME</h1>
+            <h1 className="get_in_heading">LETS GET IN TOUCH</h1>
+            <p>I am available for any project acording to my skills.</p>
+          </div>
+          <div>
+            <h3>
+              Email:
+              <a
+                target={"_blank"}
+                rel="noopener noreferrer"
+                href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sachin.mern@gmail.com"
+              >
+                sachin.mern@gmail.com
+              </a>
+            </h3>
+            <h3>
+              Contact:<a href="tel:7080623634">7080623634</a>
+            </h3>
+          </div>
+        </div>
         <div className="contact_details_container">
           <form onSubmit={handleSubmit}>
             <div>
