@@ -97,10 +97,7 @@ const About = ({ theme }) => {
                 </div>
               </div>
               <div className="cta">
-                <span
-                  style={{ border: "1px solid red" }}
-                  onClick={handleDownload}
-                >
+                <span onClick={handleDownload}>
                   <a href={RESUME} download className="btn">
                     Download CV
                   </a>
