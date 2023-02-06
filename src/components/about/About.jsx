@@ -9,13 +9,11 @@ import { TbPlaneInflight } from "react-icons/tb";
 import { TbMotorbike } from "react-icons/tb";
 import { GiWorld } from "react-icons/gi";
 import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
-import { useNavigate } from "react-router-dom";
 import GitHubCalendar from "react-github-calendar";
 
 const About = ({ theme }) => {
-  const navigate = useNavigate();
   const handleDownload = () => {
-    navigate(
+    window.open(
       "https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
     );
   };
@@ -99,9 +97,14 @@ const About = ({ theme }) => {
                 </div>
               </div>
               <div className="cta">
-                <a href={RESUME} download className="btn">
-                  Download CV
-                </a>
+                <span
+                  style={{ border: "1px solid red" }}
+                  onClick={handleDownload}
+                >
+                  <a href={RESUME} download className="btn">
+                    Download CV
+                  </a>
+                </span>
                 <a href="#contact" className="btn btn-primary">
                   Let's Talk
                 </a>
@@ -132,7 +135,13 @@ const About = ({ theme }) => {
               username="unique-sachin"
             />
           </div>
-          <h2 style={{ color: "var(--color-primary)", marginBbottom: "2rem",textAlign:"center" }}>
+          <h2
+            style={{
+              color: "var(--color-primary)",
+              marginBbottom: "2rem",
+              textAlign: "center",
+            }}
+          >
             GitHub Stats
           </h2>
           <div className="github_right">
