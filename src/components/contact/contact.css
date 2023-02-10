@@ -12,6 +12,9 @@
   align-items: center;
   justify-content: center;
 }
+.contact_head_container > div:last-child > h3 {
+  color: var(--color-light);
+}
 .contact_head_container > div:first-child > h1:first-child,
 .dataSubmitted h1:first-child {
   color: var(--color-primary);

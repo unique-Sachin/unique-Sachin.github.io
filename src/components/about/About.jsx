@@ -17,7 +17,6 @@ const About = ({ theme }) => {
       "https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
     );
   };
-  console.log(theme);
   return (
     <>
       <section id={"about"}>

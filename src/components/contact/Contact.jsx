@@ -27,6 +27,9 @@ const Contact = () => {
             <h3>
               Email:
               <a
+                style={{
+                  marginLeft: ".5rem",
+                }}
                 target={"_blank"}
                 rel="noopener noreferrer"
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sachin.mern@gmail.com"
@@ -35,7 +38,15 @@ const Contact = () => {
               </a>
             </h3>
             <h3>
-              Contact:<a href="tel:7080623634">7080623634</a>
+              Contact:
+              <a
+                style={{
+                  marginLeft: ".5rem",
+                }}
+                href="tel:7080623634"
+              >
+                +91 7080623634
+              </a>
             </h3>
           </div>
         </div>
