@@ -1,5 +1,6 @@
 section {
   padding-top: 2.5rem;
+  
 }
 .about__container {
   text-align: center;
@@ -16,7 +17,6 @@ section {
   text-align: left;
 }
 .about_container_left > h1:first-child {
-  /* max-width: fit-content; */
   color: var(--color-primary);
   font-size: 2.1rem;
   font-weight: 800;
@@ -149,6 +149,7 @@ tr > td:last-child,
 /*======================== GITHUB SECTION ========================*/
 .github_container {
   height: 85%;
+  
 }
 .github_left {
   height: 50%;

@@ -53,6 +53,7 @@ p {
   border: none;
   cursor: pointer;
   position: absolute;
+  
 }
 
 .animated-circle:after {
@@ -71,6 +72,7 @@ p {
 }
 .header_container_right {
   position: relative;
+  
 }
 
 .circle-one {

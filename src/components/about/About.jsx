@@ -35,17 +35,17 @@ const About = ({ theme }) => {
               <article className="about__card">
                 <GrStackOverflow className="about__icon" />
                 <h5>DSA</h5>
-                <small>450+ Questions Solved</small>
+                <small>500+ Questions Solved</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Projects</h5>
-                <small>4+ Completed</small>
+                <small>5+ Completed</small>
               </article>
               <article className="about__card">
                 <BsGithub className="about__icon" />
                 <h5>GitHub</h5>
-                <small>1000+ Contributions</small>
+                <small>1300+ Contributions</small>
               </article>
             </div>
           </div>
@@ -57,10 +57,6 @@ const About = ({ theme }) => {
                 <div className="details_table">
                   <table>
                     <tbody>
-                      <tr>
-                        <td>Birthday</td>
-                        <td>20 Feb 2002</td>
-                      </tr>
                       <tr>
                         <td>Phone</td>
                         <td>+91 7080623634</td>

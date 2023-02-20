@@ -61,7 +61,7 @@ const Nav = () => {
           className={activeNav === "#portfolio" ? "active" : ""}
         >
           <RiServiceLine className="menuicons" />
-          Portfolio
+          Projects
         </Link>
         <Link
           to="contact"
