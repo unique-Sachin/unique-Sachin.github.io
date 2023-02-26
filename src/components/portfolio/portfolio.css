@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 90%;
 }
 .projects_container {
   width: 90%;
@@ -19,7 +19,7 @@
   transform: skewY(-10deg);
 }
 .portfolio_card_div {
-  width: 35%;
+  width: 85%;
   margin: auto;
   text-align: center;
   display: flex;
@@ -27,20 +27,22 @@
   justify-content: space-evenly;
 }
 .portfolio_card_div img {
-  height: 15rem;
+  height: 14rem;
   object-fit: fill;
 }
 .portfolio_card_details > h1 {
   color: var(--color-primary);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .portfolio_card_details > h1 > span {
   color: var(--color-light);
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 200;
 }
 .portfolio_card_details > p {
   color: var(--color-white);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .portfolio_links {
   padding: 2rem;
@@ -71,7 +73,6 @@
   padding: 0 0.8rem;
   text-align: center;
   border-radius: 20px 5px 20px;
-  /* text-align: center; */
   background-color: var(--color-primary);
 }
 

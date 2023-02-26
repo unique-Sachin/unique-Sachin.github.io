@@ -19,7 +19,7 @@ const Portfolio = () => {
       image: gadgetrambo1,
       github: "https://github.com/unique-Sachin/GadgetRambo",
       deployed: "https://gadget-rambo.netlify.app",
-      tech: "HTML | CSS | TypeScript | NextJS | Redux | Firebase",
+      tech: "TypeScript | NextJS | Redux | Firebase",
     },
     {
       name: "Be.Fit.com",
@@ -28,7 +28,7 @@ const Portfolio = () => {
       image: befit1,
       github: "https://github.com/unique-Sachin/glorious-part-9543",
       deployed: "https://glorious-part-9543-qpf7.vercel.app",
-      tech: "HTML | CSS | JavaScript | React | JSON Server",
+      tech: "JavaScript | ReactJS | JSON Server",
     },
     {
       name: "Sparkle.com",
@@ -63,14 +63,16 @@ const Portfolio = () => {
     infinite: false,
     speed: 500,
     lazyLoad: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     dots: true,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

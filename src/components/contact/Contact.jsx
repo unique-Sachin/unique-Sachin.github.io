@@ -1,9 +1,11 @@
 import React from "react";
 import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("mbjeljkd");
+  const [state, handleSubmit] = useForm("");
   if (state.succeeded) {
     return (
       <section id="contact">
@@ -48,6 +50,22 @@ const Contact = () => {
                 +91 7080623634
               </a>
             </h3>
+            <div className="contact_socialHandle">
+              <a
+                href="https://www.linkedin.com/in/sachin-mishra-a790bb174/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <BsLinkedin />
+              </a>
+              <a
+                href="https://github.com/unique-Sachin"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <BsGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className="contact_details_container">

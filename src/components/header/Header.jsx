@@ -19,14 +19,6 @@ const Header = ({ setTheme }) => {
             </div>
             <div className="portfolio_content">
               <div className="port_details">
-                {/* <div className="port_data">
-                  <h3>342</h3>
-                  <span>Posts</span>
-                  <h3>500</h3>
-                  <span>Followers</span>
-                  <h3>100</h3>
-                  <span>Following</span>
-                </div> */}
                 <div className="port_action_Btn">
                   <a
                     target={"_blank"}
@@ -34,13 +26,6 @@ const Header = ({ setTheme }) => {
                     href="https://www.linkedin.com/in/sachin-mishra-a790bb174"
                   >
                     <button>Follow</button>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/sachin-mishra-a790bb174"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <button>Message</button>
                   </a>
                 </div>
               </div>
