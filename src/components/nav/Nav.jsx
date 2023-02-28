@@ -5,7 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
+import RESUME from "../../assets/fw21_1058-Sachin-Mishra-Resume.pdf";
 import { useState } from "react";
 import { Link } from "react-scroll";
 

@@ -15,7 +15,7 @@ const Project = ({
     <div className="portfolio_card_div">
       <img src={image} alt="" />
       <div className="portfolio_card_details">
-        <p id="techStack">{tech}</p>
+        <p id="techStack"> <span className="techstack_name">Tech Stack:- </span>{tech}</p>
         <h1>
           {name}
           <span>{clone}</span>

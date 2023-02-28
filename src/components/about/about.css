@@ -1,6 +1,5 @@
 section {
   padding-top: 2.5rem;
-  
 }
 .about__container {
   text-align: center;
@@ -89,13 +88,13 @@ article h5 {
   font-weight: 800;
   line-height: 0.5;
 }
-.details_table {
+/* .details_table {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-table {
+} */
+/* table {
   width: 60%;
 }
 tr > td:first-child {
@@ -106,10 +105,10 @@ tr > td:first-child {
 tr > td:last-child,
 .interest_card small {
   color: var(--color-light);
-}
+} */
 .interests_cards {
   display: flex;
-  margin: 1rem 0;
+  margin: 5.3rem 0;
   justify-content: flex-end;
 }
 .interest_card {
@@ -149,7 +148,6 @@ tr > td:last-child,
 /*======================== GITHUB SECTION ========================*/
 .github_container {
   height: 85%;
-  
 }
 .github_left {
   height: 50%;
@@ -192,9 +190,11 @@ tr > td:last-child,
   .about_container_right > div:first-child > h1:first-child {
     font-size: 1.7rem;
   }
+  .about_container_right h1 {
+    display: none;
+  }
   .about_content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: none;
   }
   .details_table {
     align-items: flex-start;
@@ -269,9 +269,6 @@ tr > td:last-child,
   .web_developer_heading {
     font-size: 2rem;
   }
-  .about_container_right h1 {
-    display: none;
-  }
   .about__cards {
     gap: 1rem;
     margin-top: 1rem;
@@ -279,10 +276,6 @@ tr > td:last-child,
 
   .about__card {
     padding: 1rem;
-  }
-
-  .about_content {
-    display: none;
   }
 
   .cta {

@@ -6,6 +6,8 @@
 }
 .projects_container {
   width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   margin: auto;
   z-index: 20;
 }
@@ -27,7 +29,7 @@
   justify-content: space-evenly;
 }
 .portfolio_card_div img {
-  height: 14rem;
+  height: 18rem;
   object-fit: fill;
 }
 .portfolio_card_details > h1 {
@@ -75,16 +77,23 @@
   border-radius: 20px 5px 20px;
   background-color: var(--color-primary);
 }
+.techstack_name{
+  font-size: 1.2rem;
+}
 
 /*======================== MEDIA QUERIES (MEDIUM DEVICES) ========================*/
 
 @media screen and (max-width: 1024px) {
-  .portfolio_card_div img {
-    height: 25rem;
-  }
   .portfolio_card_div {
     width: 75%;
   }
+  .projects_container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: auto;
+  z-index: 20;
+}
 }
 
 /*======================== MEDIA QUERIES (SMALL DEVICES) ========================*/

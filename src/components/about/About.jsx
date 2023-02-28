@@ -8,7 +8,7 @@ import { FaHeadphonesAlt } from "react-icons/fa";
 import { TbPlaneInflight } from "react-icons/tb";
 import { TbMotorbike } from "react-icons/tb";
 import { GiWorld } from "react-icons/gi";
-import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
+import RESUME from "../../assets/fw21_1058-Sachin-Mishra-Resume.pdf";
 import GitHubCalendar from "react-github-calendar";
 
 const About = ({ theme }) => {
@@ -51,27 +51,11 @@ const About = ({ theme }) => {
           </div>
           <div className="about_container_right">
             <div>
-              <h1 className="full_stack_heading">PERSONAL DETAILS &</h1>
+              {/* <h1 className="full_stack_heading"></h1> */}
               <h1 className="web_developer_heading">MY INTERESTS</h1>
               <div className="about_content">
-                <div className="details_table">
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td>Phone</td>
-                        <td>+91 7080623634</td>
-                      </tr>
-                      <tr>
-                        <td>Email</td>
-                        <td>sachin.mern@gmail.com</td>
-                      </tr>
-                      <tr>
-                        <td>Address</td>
-                        <td>Jaunpur, Uttar Pradesh, India</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                {/* <div className="details_table">
+                </div> */}
                 <div className="interests_cards">
                   <div className="interest_card">
                     <FaHeadphonesAlt className="interest_icons" />

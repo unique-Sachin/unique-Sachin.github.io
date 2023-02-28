@@ -3,15 +3,14 @@ import "./portfolio.css";
 import befit1 from "../../assets/befit1.jpg";
 import sparkle1 from "../../assets/sparkle1.jpg";
 import zee1 from "../../assets/zee1.jpg";
-import giphy from "../../assets/giphy.jpg";
 import gadgetrambo1 from "../../assets/gadgetrambo1.jpg";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Project from "./Project";
 
 const Portfolio = () => {
-  const projectsData = [
+  const projectsData1 = [
     {
       name: "GadgetRambo.com",
       description:
@@ -49,45 +48,19 @@ const Portfolio = () => {
       tech: "HTML | CSS | JavaScript",
       clone: "[Clone]",
     },
-    {
-      name: "Giphy",
-      description:
-        "A simple app where you can search animated GIF images. Its taking data from original giphy's API.",
-      image: giphy,
-      github: "",
-      deployed: "https://giphy-be-animated.netlify.app",
-      tech: "HTML | CSS | JavaScript",
-    },
   ];
-  let settings = {
-    infinite: false,
-    speed: 500,
-    lazyLoad: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    dots: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          arrows: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+
   return (
     <>
       <section id="portfolio">
         <h5>My Recent Work</h5>
         <h2>Projects</h2>
         <div className="portfolio_container">
-          <Slider className="projects_container" {...settings}>
-            {projectsData.map((project, id) => (
+          <div className="projects_container">
+            {projectsData1.map((project, id) => (
               <Project {...project} key={id} />
             ))}
-          </Slider>
+          </div>
           <div className="bg_texture" />
         </div>
       </section>

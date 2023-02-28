@@ -1,12 +1,6 @@
-header {
-  height: 100vh;
-  /* overflow: hidden; */
-}
-
 .header__container {
   text-align: center;
   padding-top: 2.2rem;
-  height: 100%;
   position: relative;
   display: flex;
 }
@@ -14,6 +8,7 @@ header {
 .header_container_right {
   padding: 0 1.5rem;
   display: flex;
+  margin: 8rem 0 7rem 0;
   width: 50%;
   flex-direction: column;
   justify-content: center;
@@ -69,19 +64,16 @@ p {
   -webkit-animation: ripple 2s infinite;
   animation: ripple 2s infinite;
 }
-.header_container_right {
-  position: relative;
-}
 
 .circle-one {
   position: absolute;
   top: 17%;
-  left: 0;
+  left: 45%;
 }
 .circle-two {
   position: absolute;
-  top: 10%;
-  left: 45%;
+  top: 13%;
+  left: 70%;
 }
 .circle-two::after {
   background-color: rgb(219, 64, 90);
@@ -100,8 +92,8 @@ p {
 }
 .circle-four {
   position: absolute;
-  top: 70%;
-  right: 0;
+  top: 75%;
+  right: 3%;
 }
 .circle-four::after {
   background-color: #14b3a8;
@@ -110,8 +102,8 @@ p {
 }
 .circle-five {
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 85%;
+  left: 75%;
 }
 .circle-five::after {
   background-color: #8e55cf;
@@ -161,7 +153,6 @@ p {
 .portfolio_card {
   position: relative;
   width: 18.8rem;
-  /* border: 3px solid red; */
   height: 15.4rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
@@ -271,6 +262,7 @@ p {
   .header_container_left,
   .header_container_right {
     padding: 0rem;
+    margin: 0;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -311,13 +303,14 @@ p {
   }
   /*============================ CARD ===========================*/
   .portfolio_card {
-    width: 20rem;
-    height: 16.5rem;
+    width: 17rem;
+    margin: 8rem 0 2rem 0;
+    height: 13rem;
   }
 
   .portfolio_imgbox {
-    width: 19rem;
-    height: 19.2rem;
+    width: 16.3rem;
+    height: 15.2rem;
   }
   /*============================ SOCIALS ===========================*/
 

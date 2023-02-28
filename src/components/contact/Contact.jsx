@@ -3,15 +3,13 @@ import "./contact.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
-
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjeljkd");
   if (state.succeeded) {
     return (
       <section id="contact">
         <div className="dataSubmitted">
-          <h1>Thankyou for your request</h1>
-          <h1>We will get back to you soon!</h1>
+          <h1>Thankyou! Your request message has been sent</h1>
         </div>
       </section>
     );
@@ -71,7 +69,13 @@ const Contact = () => {
         <div className="contact_details_container">
           <form onSubmit={handleSubmit}>
             <div>
-              <input placeholder="Name" id="name" name="name" type="text" />
+              <input
+                placeholder="Name"
+                id="name"
+                name="name"
+                type="text"
+                required
+              />
               <ValidationError
                 prefix="Nmail"
                 field="name"
@@ -88,7 +92,13 @@ const Contact = () => {
                 field="contact"
                 errors={state.errors}
               />
-              <input placeholder="Email" id="email" type="email" name="email" />
+              <input
+                placeholder="Email"
+                id="email"
+                type="email"
+                name="email"
+                required
+              />
               <ValidationError
                 prefix="Email"
                 field="email"
@@ -96,6 +106,7 @@ const Contact = () => {
               />
               <input
                 className="message2"
+                required
                 id="message"
                 name="message"
                 placeholder="Type Your Message Here"

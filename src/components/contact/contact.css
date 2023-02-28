@@ -30,7 +30,7 @@
   font-weight: 800;
 }
 .contact_details_container {
-  margin-top: 3rem;
+  margin: 2rem 0 5rem 0;
 }
 .contact_details_container form {
   display: flex;
