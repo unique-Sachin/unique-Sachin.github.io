@@ -90,6 +90,7 @@ const Nav = () => {
           className={activeNav === "#" ? "active" : ""}
         >
           <AiOutlineHome />
+          <span>Home</span>
         </Link>
         <Link
           to="about"
@@ -100,6 +101,7 @@ const Nav = () => {
           className={activeNav === "#about" ? "active" : ""}
         >
           <AiOutlineUser />
+          <span>About</span>
         </Link>
         <Link
           to="experience"
@@ -110,6 +112,7 @@ const Nav = () => {
           className={activeNav === "#experience" ? "active" : ""}
         >
           <BiBook />
+          <span>Skills</span>
         </Link>
         <Link
           to="portfolio"
@@ -120,6 +123,7 @@ const Nav = () => {
           className={activeNav === "#portfolio" ? "active" : ""}
         >
           <RiServiceLine />
+          <span>Projects</span>
         </Link>
         <Link
           to="contact"
@@ -130,6 +134,7 @@ const Nav = () => {
           className={activeNav === "#contact" ? "active" : ""}
         >
           <BiMessageSquareDetail />
+          <span>Contact</span>
         </Link>
       </nav>
     </>

@@ -56,7 +56,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-small{
+small {
   color: var(--color-light);
 }
 
@@ -77,7 +77,10 @@ small{
     margin: 0rem auto 1rem auto;
   }
   .experience__backend {
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .experience__backend {
     justify-content: center;
   }
   .experience__backend > div > div,
@@ -88,7 +91,7 @@ small{
 
   .skills_cards {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     justify-items: center;
   }
@@ -100,42 +103,14 @@ small{
   .experience__container {
     gap: 1rem;
   }
-  .experience__container > div {
-    width: 100%;
-    padding: 0rem;
-    padding-bottom: 1.5rem;
-    border: none;
-    margin: 0 auto;
-  }
-
-  .experience__backend {
-    flex-direction: column;
-    justify-content: center;
-  }
   .experience__container > div h3 {
     margin: 1.5rem auto 1rem auto;
   }
-  .experience__backend > div > div,
-  .professional_cards {
-    display: flex;
-    justify-content: center;
-    margin: 0rem;
-  }
+
   .skills_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.3rem;
     justify-items: center;
-  }
-  .skills_card {
-    display: flex;
-    margin: 0.1rem 0;
-    width: 5.5rem;
-    height: 2rem;
-    flex-direction: column;
-    border-radius: 0.3rem;
-  }
-  .skills_card > :first-child {
-    display: none;
   }
 }

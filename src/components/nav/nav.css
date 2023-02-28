@@ -65,19 +65,21 @@
 
   #nav_mobile a {
     background: transparent;
-    padding: 0.9rem;
+    padding: 0.5rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-  #nav_mobile a:hover {
-    background: rgba(0, 0, 0, 0.3);
+  #nav_mobile span {
+    font-size: 0.8rem;
   }
 
   #nav_mobile a.active {
-    background: var(--color-bg);
     color: var(--color-white);
   }
 }
