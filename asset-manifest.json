@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.717af9e7.css",
-    "main.js": "/static/js/main.4521c1c1.js",
-    "static/media/fw21_1058-Sachin-Mishra-Resume.pdf": "/static/media/fw21_1058-Sachin-Mishra-Resume.accf046822bc7e02e935.pdf",
+    "main.js": "/static/js/main.a7b7706e.js",
+    "static/media/fw21_1058-Sachin-Mishra-Resume.pdf": "/static/media/fw21_1058-Sachin-Mishra-Resume.7067a200efe7f3bf1a97.pdf",
     "static/media/sparkle1.jpg": "/static/media/sparkle1.c7a5dc073cd6fab66725.jpg",
     "static/media/ME.png": "/static/media/ME.6cf5d19b302d54dc3147.png",
     "static/media/zee1.jpg": "/static/media/zee1.2b3ea0a5f7134d24f398.jpg",
@@ -14,10 +14,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.717af9e7.css.map": "/static/css/main.717af9e7.css.map",
-    "main.4521c1c1.js.map": "/static/js/main.4521c1c1.js.map"
+    "main.a7b7706e.js.map": "/static/js/main.a7b7706e.js.map"
   },
   "entrypoints": [
     "static/css/main.717af9e7.css",
-    "static/js/main.4521c1c1.js"
+    "static/js/main.a7b7706e.js"
   ]
 }
