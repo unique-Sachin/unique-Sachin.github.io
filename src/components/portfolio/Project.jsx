@@ -13,9 +13,13 @@ const Project = ({
 }) => {
   return (
     <div className="portfolio_card_div">
-      <img src={image} alt="" />
+      <img src={image} alt={name} draggable="false" />
       <div className="portfolio_card_details">
-        <p id="techStack"> <span className="techstack_name">Tech Stack:- </span>{tech}</p>
+        <p id="techStack">
+          {" "}
+          <span className="techstack_name">Tech Stack:- </span>
+          {tech}
+        </p>
         <h1>
           {name}
           <span>{clone}</span>

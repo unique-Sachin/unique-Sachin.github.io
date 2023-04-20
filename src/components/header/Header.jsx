@@ -57,10 +57,12 @@ const Header = ({ setTheme }) => {
           <h1 className="greeting_hello">HELLO, I AM</h1>
           <h1 className="greeting_name">SACHIN MISHRA.</h1>
           <p>
-            Aspiring and self-motivated with a passion for developing scalable
-            web applications and working across the full stack. Looking forward
-            to joining an organization to grow my skills while contributing to a
-            positive outcome.
+            A full stack web developer with a deep knowledge of the latest
+            technologies, including React, Next.js, Node.js, and MongoDB, and
+            extensive experience solving over 600 DSA questions and spending
+            more than 1500 hours coding. With a track record of success on 6 major projects
+            and numerous smaller ones, I am confident in my ability to tackle
+            complex challenges and deliver results.
           </p>
         </div>
       </div>

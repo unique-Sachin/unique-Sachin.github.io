@@ -29,6 +29,7 @@
   justify-content: space-evenly;
 }
 .portfolio_card_div img {
+  border-radius: 5px;
   height: 18rem;
   object-fit: fill;
 }

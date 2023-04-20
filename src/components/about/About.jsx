@@ -8,13 +8,13 @@ import { FaHeadphonesAlt } from "react-icons/fa";
 import { TbPlaneInflight } from "react-icons/tb";
 import { TbMotorbike } from "react-icons/tb";
 import { GiWorld } from "react-icons/gi";
-import RESUME from "../../assets/fw21_1058-Sachin-Mishra-Resume.pdf";
+import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
 import GitHubCalendar from "react-github-calendar";
 
 const About = ({ theme }) => {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
+      "https://drive.google.com/file/d/1LZbmCqI4bAeo7puqv9bR27PwcuWotbc9/view?usp=share_link"
     );
   };
   return (
@@ -30,12 +30,12 @@ const About = ({ theme }) => {
               <article className="about__card">
                 <SiCodingninjas className="about__icon" />
                 <h5>Coding</h5>
-                <small>1200+ Hours</small>
+                <small>1500+ Hours</small>
               </article>
               <article className="about__card">
                 <GrStackOverflow className="about__icon" />
                 <h5>DSA</h5>
-                <small>500+ Questions Solved</small>
+                <small>600+ Questions Solved</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
@@ -45,7 +45,7 @@ const About = ({ theme }) => {
               <article className="about__card">
                 <BsGithub className="about__icon" />
                 <h5>GitHub</h5>
-                <small>1300+ Contributions</small>
+                <small>1500+ Contributions</small>
               </article>
             </div>
           </div>

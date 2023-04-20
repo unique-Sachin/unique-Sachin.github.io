@@ -5,7 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
-import RESUME from "../../assets/fw21_1058-Sachin-Mishra-Resume.pdf";
+import RESUME from "../../assets/Sachin_Mishra_Resume.pdf";
 import { useState } from "react";
 import { Link } from "react-scroll";
 
@@ -13,7 +13,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1uYU19l4k_t7pBG1ad_0w-95FqybOHZI6/view?usp=share_link"
+      "https://drive.google.com/file/d/1LZbmCqI4bAeo7puqv9bR27PwcuWotbc9/view?usp=share_link"
     );
   };
   return (
