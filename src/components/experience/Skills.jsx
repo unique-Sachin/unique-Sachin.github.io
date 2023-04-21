@@ -3,9 +3,14 @@ import "./skills.css";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { RiCss3Fill, RiTeamFill } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
-import { FaReact, FaPeopleArrows } from "react-icons/fa";
-import { SiRedux, SiTypescript, SiExpress, SiMongodb } from "react-icons/si";
-import { SiCypress } from "react-icons/si";
+import { FaReact, FaPeopleArrows, FaWordpress } from "react-icons/fa";
+import {
+  SiRedux,
+  SiTypescript,
+  SiExpress,
+  SiMongodb,
+  SiChakraui,
+} from "react-icons/si";
 import { TbBrandNextjs, TbBulb } from "react-icons/tb";
 import { DiGit, DiVisualstudio } from "react-icons/di";
 const Skills = () => {
@@ -32,7 +37,7 @@ const Skills = () => {
             </div>
             <div className="skills_card">
               <FaReact className="interest_icons" />
-              <small>React</small>
+              <small>React.js</small>
             </div>
             <div className="skills_card">
               <SiRedux className="interest_icons" />
@@ -43,12 +48,16 @@ const Skills = () => {
               <small>TypeScript</small>
             </div>
             <div className="skills_card">
-              <TbBrandNextjs className="interest_icons" />
-              <small>NextJS</small>
+              <SiChakraui className="interest_icons" />
+              <small>ChakraUI</small>
             </div>
             <div className="skills_card">
-              <SiCypress className="interest_icons" />
-              <small>Cypress</small>
+              <TbBrandNextjs className="interest_icons" />
+              <small>Next.js</small>
+            </div>
+            <div className="skills_card">
+              <FaWordpress className="interest_icons" />
+              <small>Wordpress</small>
             </div>
           </div>
         </div>
